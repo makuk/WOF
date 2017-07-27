@@ -1,0 +1,201 @@
+{
+	"events": 
+		[
+			{
+				"event_type": "INTERACT",
+				"action": "RIGHT_BLOCK",
+				"issuer": "ALL_PLAYERS",
+				"modid": "minecraft",
+				"name": "farmland",
+				"meta": "7",
+				"ignoreBlock": "false",
+				"tasks":
+					[
+						{
+							"task_type": "BLOCK",
+							"modid": "Quadrum",
+							"name": "farmlandAccio",
+							"meta": "0",
+							"location_type": "BLOCK",
+							"xCoord": "0",
+							"yCoord": "0",
+							"zCoord": "0",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerAccio",
+									"meta": "0"
+								}
+							]
+						},
+						{
+							"task_type": "INVENTORY_REMOVE",
+							"target_type": "SELF",
+							"target": "",
+							"modid": "Quadrum",
+							"name": "fertilizerAccio",
+							"meta": "0",
+							"count": "1",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerAccio",
+									"meta": "0"
+								}
+							]
+						}
+					]
+			},
+			{
+				"event_type": "INTERACT",
+				"action": "RIGHT_BLOCK",
+				"issuer": "ALL_PLAYERS",
+				"modid": "minecraft",
+				"name": "farmland",
+				"meta": "7",
+				"ignoreBlock": "false",
+				"tasks":
+					[
+						{
+							"task_type": "BLOCK",
+							"modid": "Quadrum",
+							"name": "farmlandCrucio",
+							"meta": "0",
+							"location_type": "BLOCK",
+							"xCoord": "0",
+							"yCoord": "0",
+							"zCoord": "0",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerCrucio",
+									"meta": "0"
+								}
+							]
+						},
+						{
+							"task_type": "INVENTORY_REMOVE",
+							"target_type": "SELF",
+							"target": "",
+							"modid": "Quadrum",
+							"name": "fertilizerCrucio",
+							"meta": "0",
+							"count": "1",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerCrucio",
+									"meta": "0"
+								}
+							]
+						}
+					]
+			},
+			{
+				"event_type": "INTERACT",
+				"action": "RIGHT_BLOCK",
+				"issuer": "ALL_PLAYERS",
+				"modid": "minecraft",
+				"name": "farmland",
+				"meta": "7",
+				"ignoreBlock": "false",
+				"tasks":
+					[
+						{
+							"task_type": "BLOCK",
+							"modid": "Quadrum",
+							"name": "farmlandImperio",
+							"meta": "0",
+							"location_type": "BLOCK",
+							"xCoord": "0",
+							"yCoord": "0",
+							"zCoord": "0",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerImperio",
+									"meta": "0"
+								}
+							]
+						},
+						{
+							"task_type": "INVENTORY_REMOVE",
+							"target_type": "SELF",
+							"target": "",
+							"modid": "Quadrum",
+							"name": "fertilizerImperio",
+							"meta": "0",
+							"count": "1",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerImperio",
+									"meta": "0"
+								}
+							]
+						}
+					]
+			},
+			{
+				"event_type": "INTERACT",
+				"action": "RIGHT_BLOCK",
+				"issuer": "ALL_PLAYERS",
+				"modid": "minecraft",
+				"name": "farmland",
+				"meta": "7",
+				"ignoreBlock": "false",
+				"tasks":
+					[
+						{
+							"task_type": "BLOCK",
+							"modid": "Quadrum",
+							"name": "farmlandZivicio",
+							"meta": "0",
+							"location_type": "BLOCK",
+							"xCoord": "0",
+							"yCoord": "0",
+							"zCoord": "0",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerZivicio",
+									"meta": "0"
+								}
+							]
+						},
+						{
+							"task_type": "INVENTORY_REMOVE",
+							"target_type": "SELF",
+							"target": "",
+							"modid": "Quadrum",
+							"name": "fertilizerZivicio",
+							"meta": "0",
+							"count": "1",
+							"conditions":
+							[
+								{
+									"condition_type": "USING",
+									"modid": "Quadrum",
+									"name": "fertilizerZivicio",
+									"meta": "0"
+								}
+							]
+						}
+					]
+			}
+		]
+}
