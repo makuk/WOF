@@ -1,4 +1,3 @@
 # WOF
-Use English Please.
+English recommended.
 For bugs and script errors, use Issue first.
-Make Pull Request after testing.
