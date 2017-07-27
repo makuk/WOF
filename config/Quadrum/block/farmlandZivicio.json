@@ -1,0 +1,19 @@
+{
+	"name": "farmlandZivicio",
+	"default-texture": "farmland_zivicio",
+	"texture-info": {
+        "front": "dirt",
+        "back": "dirt",
+        "left": "dirt",
+        "right": "dirt",
+        "top": "farmland_zivicio",
+        "bottom": "dirt"
+    },
+	"material": "dirt",
+	"drops-self": "false",
+	"drops": [
+		{"item": "minecraft:dirt", "amount": "1", "damage": "0"}
+	],
+	"flammable": "false",
+	"requires-tool": "false"
+}

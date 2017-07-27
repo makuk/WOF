@@ -1,0 +1,19 @@
+{
+	"name": "farmlandAccio",
+	"default-texture": "farmland_accio",
+	"texture-info": {
+        "front": "dirt",
+        "back": "dirt",
+        "left": "dirt",
+        "right": "dirt",
+        "top": "farmland_accio",
+        "bottom": "dirt"
+    },
+	"material": "dirt",
+	"drops-self": "false",
+	"drops": [
+		{"item": "minecraft:dirt", "amount": "1", "damage": "0"}
+	],
+	"flammable": "false",
+	"requires-tool": "false"
+}
